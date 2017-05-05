@@ -6,6 +6,12 @@ import 'element-ui/lib/theme-default/index.css'
 
 import App from './App.vue'
 
+/**
+ * [引入钉钉]
+ * @type {VueRouter}
+ */
+import './dingding-pc/dd-init.js'
+
 Vue.use(VueRouter)
 Vue.use(ElementUI)
 Vue.use(VueResource)
