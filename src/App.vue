@@ -1,9 +1,9 @@
 <template>
   <div id="app">
     <div id="navigation">
-      <el-menu default-active="/home" class="el-menu-demo" mode="horizontal" @select="handleSelect" :router="true" theme="light">
+      <el-menu default-active="/attendance" class="el-menu-demo" mode="horizontal" @select="handleSelect" :router="true" theme="light">
         <div id="logo"><img id="logo" src="./assets/icon/statistic.png"></div>
-        <el-menu-item index="/home">家</el-menu-item>
+        <el-menu-item index="/attendance">考勤统计</el-menu-item>
         <el-menu-item index="/car">用车统计</el-menu-item>
       </el-menu>
     </div>

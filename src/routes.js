@@ -1,41 +1,16 @@
-import home from './component/home/index.vue'
-  import task1 from './component/home/task/task1.vue'
-  import task2 from './component/home/task/task2.vue'
-  import task3 from './component/home/task/task3.vue'
+import attendance from './component/attendance/index.vue'
 import car from './component/car/index.vue'
 
 const routes = [
   {
     path: '/',
-    name: 'home',
-    component: home
+    name: 'attendance',
+    component: attendance
   },
   {
-    path: '/home',
-    name: 'home',
-    component: home,
-    children: [
-      {
-        path: '/home',
-        name: 'task1',
-        component: task1
-      },
-      {
-        path: '/home/task1',
-        name: 'task1',
-        component: task1
-      },
-      {
-        path: '/home/task2',
-        name: 'task2',
-        component: task2
-      },
-      {
-        path: '/home/task3',
-        name: 'task3',
-        component: task3
-      }
-    ]
+    path: '/attendance',
+    name: 'attendance',
+    component: attendance,
   },
   {
     path: '/car',
