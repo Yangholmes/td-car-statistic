@@ -1,6 +1,6 @@
 <template>
   <div id="attendance">
-
+    <h1>{{ msg }}</h1>
   </div>
 </template>
 
@@ -8,7 +8,7 @@
 export default {
   data () {
     return {
-      msg: 'Attendance'
+      msg: '此功能暂不开放'
     }
   },
   mounted: function(){
@@ -18,4 +18,7 @@ export default {
 </script>
 
 <style>
+#attendance{
+  width: 100%; height: 100%;
+}
 </style>

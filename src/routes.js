@@ -4,18 +4,18 @@ import car from './component/car/index.vue'
 const routes = [
   {
     path: '/',
-    name: 'attendance',
-    component: attendance
-  },
-  {
-    path: '/attendance',
-    name: 'attendance',
-    component: attendance,
+    name: 'car',
+    component: car
   },
   {
     path: '/car',
     name: 'Car',
     component: car
+  },
+  {
+    path: '/attendance',
+    name: 'attendance',
+    component: attendance,
   }
 ]
 

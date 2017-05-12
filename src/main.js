@@ -10,8 +10,9 @@ Vue.use(VueRouter)
 Vue.use(ElementUI)
 Vue.use(VueResource)
 
-// import DingDing initial script
-import './dingding-pc/dd-init.js'
+import Yang from 'yangjs'
+const yang = new Yang()
+yang.ajax({url: 'http://www.gdrtc.org/car/server/reservation/application-init.php'}).then( (res)=>{console.log(res)}, (res)=>{console.log(res)} );
 
 // Vue.http.options.emulateJSON = true
 // Vue.http.options.emulateHTTP = true;
